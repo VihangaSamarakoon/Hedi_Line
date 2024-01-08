@@ -1,0 +1,15 @@
+
+
+.expenseSubmit{
+
+    background-color: var(--orange);
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 800px;
+    
+
+}

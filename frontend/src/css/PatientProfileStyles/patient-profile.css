@@ -1,0 +1,24 @@
+.patient-profile .patientDetailBlock {
+  border-radius: 20px;
+  padding: 3rem;
+  border: 1px solid black;
+  background: white;
+  margin-top: 1vh;
+}
+.btn:hover {
+  background-color: var(--hover) !important;
+}
+#editProfileButton,
+#deleteProfileButton {
+  min-height: 50px;
+  width: 100%;
+  font-size: 1rem;
+  color: var(--orange);
+  border: solid 1px var(--orange);
+  border-radius: 66px;
+}
+#editProfileButton:hover,
+#deleteProfileButton:hover {
+  background: var(--orange) !important;
+  color: white;
+}

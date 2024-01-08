@@ -1,0 +1,142 @@
+.machine-details{
+    /* background: #E8E9EB;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0,0,0,05);
+    max-width: 1000px; */
+    background-color: var(--contentBackground);
+    border-radius: 15px;
+    padding: 45px ;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* machine-details h3 {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    color: #cc3333;
+} */
+
+.machineName{
+    color:var(--orange);
+}
+
+.machine-details p{
+    margin: 0;
+    font-size: 1.1em;
+    color: #555;
+    padding: 2px;
+}
+
+.machine-details button{
+    left: 683px;
+    top: 905px;
+    background: #FF5252;
+    border-radius: 50px;
+}
+
+.container1{
+    max-width : 700px;
+    width: 100%;
+    padding: 25px , 30px ;
+    margin : 30px;
+}
+
+.container .title::before{
+    content: '';
+    position: absolute;
+    height : 3px;
+    width : 30px;
+}
+
+
+
+machinelabels{
+    margin-top:25px;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--contentBackground);
+    border-radius: 15px;
+    padding: 10px ;
+    max-width: 750px;
+    margin-bottom: 20px;
+}
+
+/*form .machinelabels .input-box{
+    margin: 20px 0 20px 0;
+    width: calc(100% / 2 - 20px);
+}*/
+
+/* inputData{
+    height: 35px;
+    width: 75%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #E8E9EB;
+    background-color: #E8E9EB;
+    padding: 15px;
+    font-size: 16;
+    margin: 5px;
+}  */
+
+.subBtn{
+    outline: none;
+    background-color: #cc3333;
+    color:#ffffff;
+    border:#cc3333;
+    font-size: 18px;
+    /* font-weight: 400; */
+    border-radius: 20px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-left:50px;
+    margin-top:20px;
+}
+
+div.error {
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid var(--error);
+    color: var(--error);
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  
+
+form .button::hover{
+    background: var(--hoverDelete);
+} 
+
+/* .btnTable{
+    outline: none;
+    background-color:var(--orange);
+    color:#ffffff;
+    border:var(--orange);
+    font-size: 15px;
+    /* font-weight: 400; 
+    border-radius: 20px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    margin: 5px;
+    margin-left:25px;
+    margin-top:10px;
+} 
+
+ .btnDelete{
+    outline: none;
+    background-color:var(--hoverDelete);
+    color:#ffffff;
+    border:var(--hoverDelete);
+    font-size: 15px;
+    font-weight: 400; 
+    border-radius: 20px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    margin: 5px;
+    margin-left:25px;
+    margin-top:10px;
+} */

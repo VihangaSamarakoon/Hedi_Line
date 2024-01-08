@@ -1,0 +1,100 @@
+.updateTest,
+.viewTest,
+.createTest,
+.testPage {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  margin-top: 30px;
+}
+.test-data-details{
+  background: var(--grey);
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.test-data-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--orange);
+}
+
+.tests h4{
+  margin: 10px 0 10px 0;
+  font-size: 1.2em;
+  color: var(--orange);
+}
+.test-data-details p {
+  margin: 0;
+  font-size: 1.1em;
+  color: #555;
+}
+.test-data-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+.firstSection,
+.secondSection{
+  background-color: var(--contentBackground);
+  border-radius: 15px;
+  padding: 10px ;
+  max-width: 750px;
+  margin-bottom: 20px;
+}
+
+.maxMin {
+  background-color: var(--contentBackground);
+  border-radius: 15px;
+  padding: 10px ;
+  max-width: 750px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+select {
+  margin-top: 15px;
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+input.error {
+  border: 1px solid var(--error);
+}
+
+a {
+    text-decoration: none;
+    color:#000000;
+} 
+
+a:hover {
+  color:#000000;
+}
+
+.submit,
+.delete {
+  padding: 10px;
+  margin: 10px;
+  margin-left:22px;
+  margin-top:20px;
+}
+
+#chart {
+  height: 440px;
+}
